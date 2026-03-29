@@ -9,7 +9,7 @@ export default async function NutzerLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const session = await auth()
+  const session = await auth().catch(() => null)
 
   if (!session) {
     redirect(`/${locale}/login`)

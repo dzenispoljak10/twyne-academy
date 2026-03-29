@@ -57,7 +57,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const session = await auth()
+  const session = await auth().catch(() => null)
   const messages = await getMessages()
 
   return (

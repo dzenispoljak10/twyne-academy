@@ -9,7 +9,7 @@ export default async function AdminLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const session = await auth()
+  const session = await auth().catch(() => null)
 
   if (!session || session.user.role !== 'ADMIN') {
     redirect(`/${locale}`)
