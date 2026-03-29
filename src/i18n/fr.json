@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "kurse": "Cours",
+    "preise": "Tarifs",
+    "login": "Se connecter",
+    "dashboard": "Tableau de bord",
+    "profil": "Profil",
+    "einstellungen": "Paramètres",
+    "zertifikate": "Certificats",
+    "abo": "Mon abonnement",
+    "logout": "Se déconnecter"
+  },
+  "hero": {
+    "title": "Apprenez les compétences qui comptent",
+    "subtitle": "Cours en ligne professionnels avec des certificats reconnus Twyne Academy. Apprenez à votre rythme.",
+    "cta_primary": "Commencer gratuitement",
+    "cta_secondary": "Tous les cours"
+  },
+  "kurs": {
+    "kostenlos": "Gratuit",
+    "starten": "Commencer le cours",
+    "weitermachen": "Continuer",
+    "abschliessen": "Terminer la leçon",
+    "gesperrt": "Terminez d'abord la leçon précédente",
+    "bestanden": "Réussi !",
+    "nicht_bestanden": "Non réussi",
+    "versuche": "Tentatives",
+    "score": "Score",
+    "naechste": "Leçon suivante",
+    "zurueck": "Retour",
+    "losung": "Afficher la solution",
+    "ausfuehren": "Exécuter le code",
+    "nochmals": "Réessayer",
+    "fortschritt": "Progression",
+    "abgeschlossen": "Terminé",
+    "alle_kurse": "Tous les cours",
+    "min": "min"
+  },
+  "zertifikat": {
+    "erhalten": "Certificat obtenu",
+    "herunterladen": "Télécharger",
+    "linkedin": "Ajouter à LinkedIn",
+    "verifizieren": "Vérifier le certificat",
+    "gueltig": "Ce certificat est valide",
+    "ausgestellt": "Délivré le",
+    "abgeschlossen": "a réussi le cours",
+    "id": "ID du certificat"
+  },
+  "auth": {
+    "mit_google": "Se connecter avec Google",
+    "email_placeholder": "Adresse e-mail",
+    "magic_link": "Envoyer le lien magique",
+    "check_email": "Vérifiez vos e-mails",
+    "check_email_desc": "Nous vous avons envoyé un lien de connexion.",
+    "kein_konto": "Pas encore de compte ?",
+    "registrieren": "S'inscrire",
+    "bereits_konto": "Déjà un compte ?",
+    "anmelden": "Se connecter"
+  },
+  "fehler": {
+    "nicht_gefunden": "Page non trouvée",
+    "kein_zugriff": "Accès refusé",
+    "kein_zugriff_desc": "Vous n'avez pas la permission de voir cette page.",
+    "server": "Erreur serveur",
+    "zurueck": "Retour à l'accueil"
+  },
+  "preise": {
+    "title": "Tarification simple et transparente",
+    "subtitle": "Choisissez le plan qui vous convient",
+    "free_name": "Gratuit",
+    "free_desc": "Parfait pour commencer",
+    "abo_name": "Mensuel",
+    "abo_desc": "Accès illimité à tous les cours",
+    "einzel_name": "Cours unique",
+    "einzel_desc": "Accès à vie à un cours",
+    "pro_monat": "/ mois",
+    "pro_kurs": "/ cours",
+    "jetzt_starten": "Commencer",
+    "abo_starten": "Démarrer l'abonnement",
+    "kurs_kaufen": "Acheter le cours",
+    "beliebt": "Populaire",
+    "probe": "14 jours d'essai — 5 cours gratuits, sans certificat"
+  },
+  "dashboard": {
+    "title": "Mon tableau de bord",
+    "meine_kurse": "Mes cours",
+    "zertifikate": "Certificats",
+    "empfohlen": "Recommandé pour vous",
+    "kein_kurs": "Aucun cours commencé",
+    "kurs_entdecken": "Découvrir les cours"
+  },
+  "footer": {
+    "ueber": "À propos de Twyne Academy",
+    "kurse": "Cours",
+    "support": "Support",
+    "legal": "Mentions légales",
+    "datenschutz": "Confidentialité",
+    "impressum": "Mentions légales",
+    "agb": "CGU",
+    "copyright": "© {year} Twyne Academy. Tous droits réservés."
+  }
+}

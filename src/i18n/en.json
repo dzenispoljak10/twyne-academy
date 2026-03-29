@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "kurse": "Courses",
+    "preise": "Pricing",
+    "login": "Sign in",
+    "dashboard": "Dashboard",
+    "profil": "Profile",
+    "einstellungen": "Settings",
+    "zertifikate": "Certificates",
+    "abo": "My Subscription",
+    "logout": "Sign out"
+  },
+  "hero": {
+    "title": "Learn the skills that matter",
+    "subtitle": "Professional online courses with recognized Twyne Academy certificates. Learn at your own pace.",
+    "cta_primary": "Start for free",
+    "cta_secondary": "All courses"
+  },
+  "kurs": {
+    "kostenlos": "Free",
+    "starten": "Start course",
+    "weitermachen": "Continue",
+    "abschliessen": "Complete lesson",
+    "gesperrt": "Complete the previous lesson first",
+    "bestanden": "Passed!",
+    "nicht_bestanden": "Not passed",
+    "versuche": "Attempts",
+    "score": "Score",
+    "naechste": "Next lesson",
+    "zurueck": "Back",
+    "losung": "Show solution",
+    "ausfuehren": "Run code",
+    "nochmals": "Try again",
+    "fortschritt": "Progress",
+    "abgeschlossen": "Completed",
+    "alle_kurse": "All courses",
+    "min": "min"
+  },
+  "zertifikat": {
+    "erhalten": "Certificate received",
+    "herunterladen": "Download",
+    "linkedin": "Add to LinkedIn",
+    "verifizieren": "Verify certificate",
+    "gueltig": "This certificate is valid",
+    "ausgestellt": "Issued on",
+    "abgeschlossen": "has successfully completed the course",
+    "id": "Certificate ID"
+  },
+  "auth": {
+    "mit_google": "Sign in with Google",
+    "email_placeholder": "Email address",
+    "magic_link": "Send magic link",
+    "check_email": "Check your email",
+    "check_email_desc": "We sent you a sign-in link.",
+    "kein_konto": "No account yet?",
+    "registrieren": "Register",
+    "bereits_konto": "Already have an account?",
+    "anmelden": "Sign in"
+  },
+  "fehler": {
+    "nicht_gefunden": "Page not found",
+    "kein_zugriff": "Access denied",
+    "kein_zugriff_desc": "You don't have permission to view this page.",
+    "server": "Server error",
+    "zurueck": "Back to home"
+  },
+  "preise": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Choose the plan that works for you",
+    "free_name": "Free",
+    "free_desc": "Perfect for getting started",
+    "abo_name": "Monthly",
+    "abo_desc": "Unlimited access to all courses",
+    "einzel_name": "Single course",
+    "einzel_desc": "Lifetime access to one course",
+    "pro_monat": "/ month",
+    "pro_kurs": "/ course",
+    "jetzt_starten": "Get started",
+    "abo_starten": "Start subscription",
+    "kurs_kaufen": "Buy course",
+    "beliebt": "Popular",
+    "probe": "14-day trial — 5 courses free, no certificate"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "meine_kurse": "My Courses",
+    "zertifikate": "Certificates",
+    "empfohlen": "Recommended for you",
+    "kein_kurs": "No courses started yet",
+    "kurs_entdecken": "Discover courses"
+  },
+  "footer": {
+    "ueber": "About Twyne Academy",
+    "kurse": "Courses",
+    "support": "Support",
+    "legal": "Legal",
+    "datenschutz": "Privacy Policy",
+    "impressum": "Imprint",
+    "agb": "Terms",
+    "copyright": "© {year} Twyne Academy. All rights reserved."
+  }
+}

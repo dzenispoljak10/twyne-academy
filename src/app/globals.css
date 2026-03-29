@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Twyne Academy Primary Blue */
+  --color-primary-50: #E6F1FB;
+  --color-primary-100: #B5D4F4;
+  --color-primary-200: #85B7EB;
+  --color-primary-300: #549AE2;
+  --color-primary-400: #378ADD;
+  --color-primary-500: #185FA5;
+  --color-primary-600: #0C447C;
+  --color-primary-700: #042C53;
+  --color-primary: #185FA5;
+  --color-primary-foreground: #ffffff;
+
+  /* Secondary Teal */
+  --color-secondary: #0F6E56;
+  --color-secondary-foreground: #ffffff;
+
+  /* Accent Purple */
+  --color-accent: #534AB7;
+  --color-accent-foreground: #ffffff;
+
+  /* Neutrals */
+  --color-neutral-50: #F1EFE8;
+  --color-neutral-100: #D3D1C7;
+  --color-neutral-200: #E5E4DC;
+  --color-neutral-300: #C4C2B8;
+  --color-neutral-400: #A8A69C;
+  --color-neutral-500: #888780;
+  --color-neutral-600: #6B6A63;
+  --color-neutral-700: #4F4E47;
+  --color-neutral-800: #3A3935;
+  --color-neutral-900: #2C2C2A;
+
+  /* Status */
+  --color-success: #1D9E75;
+  --color-warning: #BA7517;
+  --color-danger: #E24B4A;
+
+  /* Fonts */
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+
+  /* Animations */
+  --animate-fadeIn: fadeIn 0.3s ease-in-out;
+  --animate-slideUp: slideUp 0.4s ease-out;
+  --animate-shimmer: shimmer 1.5s infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #2C2C2A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body, 'Plus Jakarta Sans', sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #B5D4F4;
+  color: #042C53;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1EFE8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #185FA5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0C447C;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display, 'Sora', sans-serif);
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+/* Prose for markdown content */
+.prose h1 { font-size: 2rem; margin-bottom: 1rem; margin-top: 2rem; }
+.prose h2 { font-size: 1.5rem; margin-bottom: 0.75rem; margin-top: 1.75rem; }
+.prose h3 { font-size: 1.25rem; margin-bottom: 0.5rem; margin-top: 1.5rem; }
+.prose p { margin-bottom: 1rem; line-height: 1.7; }
+.prose ul, .prose ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+.prose li { margin-bottom: 0.25rem; }
+.prose code { background: #F1EFE8; padding: 0.125rem 0.375rem; border-radius: 4px; font-size: 0.875em; }
+.prose pre { background: #1e1e2e; color: #cdd6f4; padding: 1.25rem; border-radius: 12px; overflow-x: auto; margin-bottom: 1rem; }
+.prose pre code { background: none; padding: 0; }
+.prose blockquote { border-left: 4px solid #185FA5; padding-left: 1rem; color: #6B6A63; margin: 1rem 0; }
+.prose strong { font-weight: 600; }
+.prose a { color: #185FA5; text-decoration: underline; }

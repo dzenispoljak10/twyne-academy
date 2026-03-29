@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "kurse": "Kurse",
+    "preise": "Preise",
+    "login": "Anmelden",
+    "dashboard": "Dashboard",
+    "profil": "Profil",
+    "einstellungen": "Einstellungen",
+    "zertifikate": "Zertifikate",
+    "abo": "Mein Abo",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "title": "Lerne die Fähigkeiten, die zählen",
+    "subtitle": "Professionelle Online-Kurse mit anerkannten Twyne Academy Zertifikaten. Lerne in deinem Tempo.",
+    "cta_primary": "Kostenlos starten",
+    "cta_secondary": "Alle Kurse"
+  },
+  "kurs": {
+    "kostenlos": "Kostenlos",
+    "starten": "Kurs starten",
+    "weitermachen": "Weitermachen",
+    "abschliessen": "Lektion abschliessen",
+    "gesperrt": "Schliesse zuerst die vorherige Lektion ab",
+    "bestanden": "Bestanden!",
+    "nicht_bestanden": "Nicht bestanden",
+    "versuche": "Versuche",
+    "score": "Punktzahl",
+    "naechste": "Nächste Lektion",
+    "zurueck": "Zurück",
+    "losung": "Lösung anzeigen",
+    "ausfuehren": "Code ausführen",
+    "nochmals": "Nochmals versuchen",
+    "fortschritt": "Fortschritt",
+    "abgeschlossen": "Abgeschlossen",
+    "alle_kurse": "Alle Kurse",
+    "min": "min"
+  },
+  "zertifikat": {
+    "erhalten": "Zertifikat erhalten",
+    "herunterladen": "Herunterladen",
+    "linkedin": "Zu LinkedIn hinzufügen",
+    "verifizieren": "Zertifikat prüfen",
+    "gueltig": "Dieses Zertifikat ist gültig",
+    "ausgestellt": "Ausgestellt am",
+    "abgeschlossen": "hat den Kurs erfolgreich abgeschlossen",
+    "id": "Zertifikats-ID"
+  },
+  "auth": {
+    "mit_google": "Mit Google anmelden",
+    "email_placeholder": "E-Mail Adresse",
+    "magic_link": "Magic Link senden",
+    "check_email": "Überprüfe deine E-Mail",
+    "check_email_desc": "Wir haben dir einen Anmeldelink gesendet.",
+    "kein_konto": "Noch kein Konto?",
+    "registrieren": "Registrieren",
+    "bereits_konto": "Bereits ein Konto?",
+    "anmelden": "Anmelden"
+  },
+  "fehler": {
+    "nicht_gefunden": "Seite nicht gefunden",
+    "kein_zugriff": "Kein Zugriff",
+    "kein_zugriff_desc": "Du hast keine Berechtigung diese Seite zu sehen.",
+    "server": "Serverfehler",
+    "zurueck": "Zur Startseite"
+  },
+  "preise": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Wähle den Plan der zu dir passt",
+    "free_name": "Free",
+    "free_desc": "Perfekt zum Ausprobieren",
+    "abo_name": "Monatsabo",
+    "abo_desc": "Unbegrenzter Zugang zu allen Kursen",
+    "einzel_name": "Einzelkauf",
+    "einzel_desc": "Lebenslanger Zugang zu einem Kurs",
+    "pro_monat": "/ Monat",
+    "pro_kurs": "/ Kurs",
+    "jetzt_starten": "Jetzt starten",
+    "abo_starten": "Abo starten",
+    "kurs_kaufen": "Kurs kaufen",
+    "beliebt": "Beliebt",
+    "probe": "14 Tage testen — 5 Kurse gratis, kein Zertifikat"
+  },
+  "dashboard": {
+    "title": "Mein Dashboard",
+    "meine_kurse": "Meine Kurse",
+    "zertifikate": "Zertifikate",
+    "empfohlen": "Empfohlen für dich",
+    "kein_kurs": "Noch kein Kurs gestartet",
+    "kurs_entdecken": "Kurse entdecken"
+  },
+  "footer": {
+    "ueber": "Über Twyne Academy",
+    "kurse": "Kurse",
+    "support": "Support",
+    "legal": "Rechtliches",
+    "datenschutz": "Datenschutz",
+    "impressum": "Impressum",
+    "agb": "AGB",
+    "copyright": "© {year} Twyne Academy. Alle Rechte vorbehalten."
+  }
+}

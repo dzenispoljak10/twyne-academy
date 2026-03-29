@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(ls C:/Users/dzeni/Documents/twyne-academy/*.css C:/Users/dzeni/Documents/twyne-academy/*.ts C:/Users/dzeni/Documents/twyne-academy/*.json)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
